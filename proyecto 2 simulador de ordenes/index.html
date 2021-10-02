@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Viandas Saludables Pepito</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SobreNosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Asesores nutricionales</a>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>  
+    </header>
+
+    <section>
+
+        <div class="card" style="width: 18rem;">
+            <img src="vegana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <card id="card">
+              <h5 class="card-title">Vianda Vegana</h5>
+              <p class="card-text">basada en dieta vegana.</p>
+              <input type="number" id="vegana">
+              <button onclick="agregar()">Agregar</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="vegetariana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <card id="card">
+              <h5 class="card-title">Vianda Vegetariana</h5>
+              <p class="card-text">basada en dieta vegetariana.</p>
+              <input type="number" id="vegetariana">
+              <button onclick="agregar()">Agregar</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="bajascalorias.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <card id="card">
+              <h5 class="card-title">Vianda Baja en calorias</h5>
+              <p class="card-text">basada en una dieta baja en calorias.</p>
+              <input type="number" id="baja">
+              <button onclick="agregar()">Agregar</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="celiaca.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <card id="card">
+              <h5 class="card-title">Vianda celiaca</h5>
+              <p class="card-text">basada en dieta celiaca.</p>
+              <input type="number" id="celiaca">
+              <button onclick="agregar()">Agregar</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="dulce.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <card id="card">
+              <h5 class="card-title">Vianda dulce</h5>
+              <p class="card-text">las cosas mas ricas para vos.</p>
+              <input type="number" id="dulce">
+              <button onclick="agregar()">Agregar</button>
+            </div>
+          </div>
+
+
+          <div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"> vegana </th>
+                    <th scope="col"> vegetariana </th>
+                    <th scope="col"> baja en calorias </th>
+                    <th scope="col"> celiaca  </th>
+                    <th scope="col"> dulce </th>
+                    
+                    
+                  </tr>
+                </thead>
+                <tbody id="tbody">
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                  <tr>
+                 
+                </tbody>
+                
+              </table>
+              <button onclick="saludar()">Finalizar Pedido</button>
+            </div>
+          
+          
+            
+
+
+
+        </section>
+
+
+
+
+    <footer>
+        <h3>
+            <p>Las mejor forma de alimentarte</p>
+            <p>no dudes en consultar</p>
+        </h3>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

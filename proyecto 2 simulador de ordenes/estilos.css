@@ -1,0 +1,19 @@
+body {
+  background-color: aqua !important;
+}
+
+section {
+  display: flex !important;
+  align-content: space-around !important;
+  padding: 50px;
+  margin: 50px;
+}
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
